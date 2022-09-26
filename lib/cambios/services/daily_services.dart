@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:juno_prueba/model/daily.dart';
 
 import '../../utils/api.dart';
+import '../model/daily.dart';
 
 class DailyService {
   Future<List<Result>> getDaily() async {

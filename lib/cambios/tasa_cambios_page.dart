@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:juno_prueba/model/daily.dart';
-import 'package:juno_prueba/providers/daily_provider.dart';
+import 'package:juno_prueba/cambios/providers/daily_provider.dart';
 import 'package:juno_prueba/widgets/botton_time.dart';
 import 'package:juno_prueba/widgets/colors.dart';
 import 'package:provider/provider.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
+
+import 'model/daily.dart';
 
 class TasaCambiosPage extends StatefulWidget {
   const TasaCambiosPage({Key? key}) : super(key: key);

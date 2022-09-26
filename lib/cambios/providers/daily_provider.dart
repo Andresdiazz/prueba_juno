@@ -2,8 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:juno_prueba/model/daily.dart';
-import 'package:juno_prueba/services/daily_services.dart';
+
+import '../model/daily.dart';
+import '../services/daily_services.dart';
 
 class DailyProvider extends ChangeNotifier {
   late DailyService _dailyService;
